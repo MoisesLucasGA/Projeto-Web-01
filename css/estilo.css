@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/bg-image.svg");
+    background-repeat: no-repeat;
+    background-color: #0d2a2e;
+}
+header{
+    background-color: #0d2a2e;
+}
+#cabecalho{
+    width: 90%;
+    margin: auto;
+    color: #fefefe;
+}
+
+#logo{
+    display: inline-block;
+}
+
+#menu{
+    display: inline-block;
+    margin-left: 45%;
+}
+
+#menu button{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-size: 20px;
+}
+
+#FreeTrial{
+    background-color: #4ca190;
+    border: #0000;
+    border-radius: 5px;
+    color: #fefefe;
+}
+
+.menuBtn{
+    border: none;
+    color:#fefefe;
+    background-color: #0000;
+}
+
+.menuBtn:hover{
+    background-color: #fefefe;
+    color:#0d2a2e;
+    border-radius: 5px;
+}
+
+#FreeTrial:hover{
+    background-color: #4ca19099;
+}
