@@ -24,7 +24,7 @@ header{
     margin: 15px 0px;
 }
 
-#menu button{
+#menu button,a{
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -93,4 +93,41 @@ header{
 #btnWatch{
     color: #f4d5cb;
     background-color: #0d2a2e;
+}
+
+#mural,#sobre,#contato{
+    width: 80%;
+    margin: 50px auto;
+    background-color: #f2f3f9dd;
+    color: #0d2a2e;
+    padding: 20px;
+    text-align: justify;
+    
+    font-weight: lighter;
+    border-radius: 15px;
+}
+
+#sobre img{
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin: -80px auto;
+    box-shadow: 10px 10px #0003;
+}
+
+#sobre p{
+    width: 85%;
+}
+
+#labels, #inputs{
+    display: inline-block;    
+}
+
+#labels label, #inputs input{
+    display: block;
+    font-size: 22px;
+}
+
+#labels label{
+    margin: 6px auto;
 }
