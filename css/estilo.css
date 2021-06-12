@@ -8,8 +8,8 @@ header{
     background-color: #0d2a2e;
 }
 #cabecalho{
-    width: 90%;
-    margin: auto;
+    width: 80%;
+    margin: 20px auto;
     color: #fefefe;
 }
 
@@ -18,8 +18,10 @@ header{
 }
 
 #menu{
-    display: inline-block;
-    margin-left: 45%;
+    /* display: inline-block;
+    margin-left: 45%; */
+    float: right;
+    margin: 15px 0px;
 }
 
 #menu button{
@@ -37,6 +39,7 @@ header{
     border: #0000;
     border-radius: 5px;
     color: #fefefe;
+    margin-left: 50px !important;
 }
 
 .menuBtn{
@@ -53,4 +56,41 @@ header{
 
 #FreeTrial:hover{
     background-color: #4ca19099;
+}
+
+#main{
+    color: #fefefe;
+    width: 40%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+#main h1{
+    font-size: 68px;
+    font-weight: normal;
+}
+
+#main h2{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#main button{
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 10px;
+    font-size: 24px;
+}
+
+#btnGetStarted{
+    border: none;
+    color: #f4d5cb;
+    background-color: #e8864f;
+}
+
+#btnWatch{
+    color: #f4d5cb;
+    background-color: #0d2a2e;
 }
