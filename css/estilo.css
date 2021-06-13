@@ -3,6 +3,8 @@ body{
     background-image: url("../img/bg-image.svg");
     background-repeat: no-repeat;
     background-color: #0d2a2e;
+    margin: 0px;
+    padding: 0px;
 }
 header{
     background-color: #0d2a2e;
@@ -52,10 +54,12 @@ header{
     background-color: #fefefe;
     color:#0d2a2e;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 #FreeTrial:hover{
     background-color: #4ca19099;
+    transition: 0.5s;
 }
 
 #main{
@@ -102,9 +106,11 @@ header{
     color: #0d2a2e;
     padding: 20px;
     text-align: justify;
-    
     font-weight: lighter;
     border-radius: 15px;
+}
+#contato{
+    display: flex;
 }
 
 #sobre img{
@@ -118,16 +124,107 @@ header{
 #sobre p{
     width: 85%;
 }
+/* 
+#form{
+    display: inline-flex;
+} */
 
-#labels, #inputs{
-    display: inline-block;    
-}
-
-#labels label, #inputs input{
+#form input, label, textarea, #links{ 
     display: block;
     font-size: 22px;
 }
+#form label{
+    margin-bottom: 5px;
+}
+#form input, textarea{
+    border: none;
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    width: 20em;
+    margin-bottom: 15px;
+    background-color: #d3d8dd;
+    border-bottom: 1px solid #0d2a2e;
+    color: #0d2a2e;
+}
+#form input,textarea:focus{
+    outline: none;
+}
 
-#labels label{
-    margin: 6px auto;
+#form textarea{
+    resize: none;
+}
+#btnEnviar{
+    border: none;
+    color: #f4d5cb;
+    background-color: #e8864f;
+    font-size: 22px;
+    padding: 10px 30px;
+}
+#btnEnviar:hover{
+    border: none;
+}
+#form, #links{
+    width: 49%;
+}
+#rodape{
+    width: 100%;
+    background-color: #020a0b;
+    position: absolute;
+}
+
+#social{
+    list-style: none;
+    padding: none;
+    margin: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50vw;
+    float: left;
+}
+/* .social-item{
+    display: inline-block;
+} */
+
+.social-item svg{
+    width: 2em;
+    color: #d3d8dd;
+}
+
+.social-item svg:hover{
+    color: #e8864f;
+}
+
+.social-item path{
+    fill: currentColor;
+}
+
+.social-item path:hover{
+    fill: currentColor;
+    transition: 0.2s;
+}
+.social-item span{
+    display: none;
+}
+.social-item:last-child{
+    margin-left: auto;
+}
+
+#btnCreditos{
+    font-size: 22px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #d3d8dd;
+    cursor: pointer;
+    color: #0d2a2e;
+    height: 40px;
+}
+#btnCreditos:hover{
+    background-color: #e8864f;
+    color: #d3d8dd;
+    transition: 0.1s;
+}
+#btnCreditos:active{
+    transform: scaleY(0.9);
 }

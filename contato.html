@@ -33,16 +33,24 @@
     </div>
     <div id="contato">
         <div id="form">
-            <div id="labels">
-                <label for="nome">Nome:</label>
-                <label for="assunto">Assunto:</label>
-                <label for="assunto">Mensagem:</label>
-            </div>
-            <div id="inputs">
-                <input name="nome" type="text" placeholder="Ex: João Silva">
-                <input name="assunto" type="text" placeholder="Ex: Trabalho">
-                <input name="mensagem" type="text">
-            </div>
+            <label for="nome">Nome:</label>
+            <input name="nome" type="text" placeholder="Ex: João Silva" maxlength="35">
+            
+            <label for="assunto">Assunto:</label>
+            <input name="assunto" type="text" placeholder="Ex: Trabalho" maxlength="35">
+
+            <label for="assunto">Mensagem:</label>
+            <textarea name="mensagem" cols="20" rows="4"></textarea>
+            
+            <button id="btnEnviar">Enviar</button>
+        </div>
+        <div id="links">
+            <p>Entre em contato pelo</p>
+            <ul>
+                <li>Celular: <a href="tel:+555 4001 4001">555 4001 4001</a></li>
+                <li>E-mail: <a href="mailto:mlucas.gondim@gmail.com">mlucas.gondim@gmail.com</a></li>
+            </ul>
+            
         </div>
     </div>
     </body>
